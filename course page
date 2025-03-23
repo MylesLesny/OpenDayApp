@@ -1,0 +1,157 @@
+<div class="courses-container">
+  <h1>Explore Our Courses</h1>
+  <p>Discover undergraduate, postgraduate, and professional courses designed to support your career goals. Choose your future path!</p>
+
+  <!-- Undergraduate Courses Section -->
+  <h2>Undergraduate Courses</h2>
+  <div class="course-grid">
+    <div class="course-card">
+      <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" alt="Computer Science">
+      <h3>Computer Science BSc (Hons)</h3>
+      <p>Learn software development, AI, and data science.</p>
+    </div>
+
+    <div class="course-card">
+      <img src="https://images.unsplash.com/photo-1551434678-e076c223a692" alt="Business Management">
+      <h3>Business Management BA (Hons)</h3>
+      <p>Develop leadership and strategic management skills.</p>
+    </div>
+
+    <div class="course-card">
+      <img src="https://www.gcu.ac.uk/__data/assets/image/0025/255247/BSc_Nursing-Studies_Adult_thumbnail.jpg" alt="Nursing">
+      <h3>Nursing BSc (Hons)</h3>
+      <p>Gain hands-on experience and prepare for a career in healthcare.</p>
+    </div>
+
+    <div class="course-card">
+      <img src="https://twproject.com/blog/wp-content/uploads/2022/05/project-management-for-construction.png" alt="Construction Management">
+      <h3>Construction Management BSc (Hons)</h3>
+      <p>Master construction technology and project management.</p>
+    </div>
+  <!-- Undergraduate section for eduction studies course -->
+    <div class="course-card">
+      <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754" alt="Education Studies">
+      <h3>Education Studies BA (Hons)</h3>
+      <p>Explore teaching methods and educational systems.</p>
+    </div>
+  </div>
+
+  <!-- Postgraduate Courses Section -->
+  <h2>Postgraduate Courses</h2>
+  <div class="course-grid">
+    <div class="course-card">
+      <img src="https://www.kth.se/polopoly_fs/1.1089377.1625471904!/image/MSc-Cyber-Security.jpg" alt="Cybersecurity">
+      <h3>Cybersecurity MSc</h3>
+      <p>Specialize in network security, threat analysis, and ethical hacking.</p>
+    </div>
+  <!-- Business Adminstration section -->
+    <div class="course-card">
+      <img src="https://www.sussex.ac.uk/images/prospectus/banners/pgng/social-sciences/MBA20-31-large.jpg" alt="MBA">
+      <h3>MBA - Master of Business Administration</h3>
+      <p>Develop executive leadership and management expertise.</p>
+    </div>
+
+    <div class="course-card">
+      <img src="https://images.unsplash.com/photo-1562577309-2592ab84b1bc" alt="Digital Marketing">
+      <h3>Digital Marketing MSc</h3>
+      <p>Learn digital marketing strategy, social media management, and data analytics.</p>
+    </div>
+  </div>
+
+  <!-- Professional Courses Section -->
+  <h2>Professional Courses</h2>
+  <div class="course-grid">
+    <div class="course-card">
+      <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b" alt="Health and Social Care">
+      <h3>Health and Social Care Certificate</h3>
+      <p>Get certified for a career in the healthcare sector.</p>
+    </div>
+
+    <div class="course-card">
+      <img src="https://www.worldcampus.psu.edu/sites/default/files/2020-06/What-Does-a-Project-Manager-Do-Alt.jpg" alt="Project Management Professional">
+      <h3>Project Management Professional (PMP)</h3>
+      <p>Earn your PMP certification to become a qualified project manager.</p>
+    </div>
+
+    <div class="course-card">
+      <img src="https://images.unsplash.com/photo-1558655146-364adaf1fcc9" alt="Web Development">
+      <h3>Web Development Bootcamp</h3>
+      <p>Learn front-end and back-end development skills in 12 weeks.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Improved CSS -->
+<style>
+  .courses-container {
+    font-family: Arial, sans-serif;
+    margin: 40px auto;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  }
+
+  h1 {
+    color: #007bff;
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: 40px;
+    color: #333;
+  }
+
+  .course-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .course-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    flex: 1 1 calc(30% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+
+  .course-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  .course-card h3, .course-card p {
+    padding: 10px;
+  }
+
+  h3 {
+    color: #007bff;
+  }
+
+  p {
+    color: #555;
+  }
+
+  @media (max-width: 768px) {
+    .course-card {
+      flex: 1 1 calc(48% - 20px);
+    }
+  }
+
+  @media (max-width: 500px) {
+    .course-card {
+      flex: 1 1 100%;
+    }
+  }
+</style>
