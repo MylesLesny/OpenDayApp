@@ -1,0 +1,189 @@
+<!-- wp:group {"metadata":{"name":"Header","categories":["header"],"patternName":"a8c/header-logo-and-menu"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var(\u002d\u002dwp\u002d\u002dstyle\u002d\u002droot\u002d\u002dpadding-left, var(\u002d\u002dwp\u002d\u002dcustom\u002d\u002dgap\u002d\u002dhorizontal))","right":"var(\u002d\u002dwp\u002d\u002dstyle\u002d\u002droot\u002d\u002dpadding-right, var(\u002d\u002dwp\u002d\u002dcustom\u002d\u002dgap\u002d\u002dhorizontal))"},"margin":{"top":"0","bottom":"0"}},"position":{"type":"sticky","top":"0px"}},"layout":{"type":"constrained","justifyContent":"center","contentSize":"1920px"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--style--root--padding-right, var(--wp--custom--gap--horizontal));padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--style--root--padding-left, var(--wp--custom--gap--horizontal))"><!-- wp:group {"tagName":"header","metadata":{"name":"Contents"},"align":"wide","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"color":{"background":"#f24873"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<header class="wp-block-group alignwide has-background" style="background-color:#f24873;margin-top:0;margin-bottom:0"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:site-logo {"width":304,"shouldSyncIcon":true,"align":"center","className":"is-style-default"} /-->
+
+<!-- wp:site-title {"style":{"layout":{"selfStretch":"fit","flexSize":null}},"fontSize":"large"} /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"></div>
+<!-- /wp:group --></header>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Intro","categories":["about"],"patternName":"a8c/full-width-image-above-header-with-two-buttons"},"align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|40"},"position":{"type":""},"color":{"background":"#a8d770"}},"layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group alignfull has-background" style="background-color:#a8d770;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"32px"}},"border":{"width":"31px"},"color":{"background":"#a8d770"}},"borderColor":"light-green-cyan"} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-center has-border-color has-light-green-cyan-border-color has-background" style="border-width:31px;background-color:#a8d770"><!-- wp:column {"verticalAlignment":"center","width":"66.66%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.66%"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"right":"24px"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide" style="padding-right:24px"><!-- wp:heading {"align":"wide"} -->
+<h2 class="wp-block-heading alignwide">A world filled with boundless opportunities and potential</h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"33.33%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%"><!-- wp:paragraph {"align":"left","style":{"layout":{"selfStretch":"fixed","flexSize":"70%"}}} -->
+<p class="has-text-align-left">Explore our campus, meet faculty and students, and experience life at The University of Wolverhampton firsthand. Choose from a range of informative sessions, guided tours, and interactive workshops designed to help you make the most of your visit.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"32px"}}}} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"33.33%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%"><!-- wp:image {"id":68,"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-default"} -->
+<figure class="wp-block-image size-full is-style-default"><img src="https://wlvopenday.wordpress.com/wp-content/uploads/2025/03/md-duran-1vqhrwxcccw-unsplash.jpg" alt="" class="wp-image-68" style="aspect-ratio:3/4;object-fit:cover"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"33.33%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%"><!-- wp:image {"id":25,"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://wlvopenday.wordpress.com/wp-content/uploads/2025/03/uow-sign-teaser-image.jpg" alt="" class="wp-image-25" style="aspect-ratio:3/4;object-fit:cover"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"33.33%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%"><!-- wp:image {"id":16531,"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-default"} -->
+<figure class="wp-block-image size-full is-style-default"><img src="https://dotcompatterns.wordpress.com/wp-content/uploads/2024/09/2-1.jpg" alt="" class="wp-image-16531" style="aspect-ratio:3/4;object-fit:cover"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"categories":["featured"],"name":"Intro","patternName":"a8c/intro-fullwidth-image-with-content-and-button"},"align":"full","className":"alignfull is-style-section-3","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"background":{"backgroundImage":{"url":"https://wlvopenday.wordpress.com/wp-content/uploads/2025/03/banner-university-desktop-university-of-wolverhampton-1.webp","id":24,"source":"file","title":"banner-university-desktop-university-of-wolverhampton-1"},"backgroundSize":"cover"}},"layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group alignfull is-style-section-3" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:embed {"url":"https://youtu.be/CuOINQvswsA","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio","style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"0","right":"0"}}}} -->
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio" style="margin-top:var(--wp--preset--spacing--80);margin-right:0;margin-bottom:var(--wp--preset--spacing--80);margin-left:0"><div class="wp-block-embed__wrapper">
+https://youtu.be/CuOINQvswsA
+</div></figure>
+<!-- /wp:embed --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","style":{"color":{"background":"#f24873"}},"layout":{"type":"constrained","justifyContent":"left","contentSize":"460px"}} -->
+<div class="wp-block-column is-vertically-aligned-center has-background" style="background-color:#f24873"><!-- wp:heading -->
+<h2 class="wp-block-heading">Courses</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Here at the University of Wolverhampton we're proud to offer hundreds of courses, browse now to.......... .</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"width":75,"className":"is-style-fill","style":{"spacing":{"padding":{"left":"0","right":"0","top":"0","bottom":"0"}},"border":{"width":"0px","style":"none","radius":"33px"}},"fontSize":"medium"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-75 is-style-fill"><a class="wp-block-button__link has-medium-font-size has-custom-font-size wp-element-button" style="border-style:none;border-width:0px;border-radius:33px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">Learn More..</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Events","categories":["events"],"patternName":"a8c/event-list-with-images"},"align":"full","className":"alignfull is-style-default","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}},"border":{"width":"0px","style":"none"}},"layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group alignfull is-style-default" style="border-style:none;border-width:0px;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-columns alignwide"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"style":{"layout":{"selfStretch":"fixed","flexSize":"100%"}}} -->
+<h2 class="wp-block-heading">Events</h2>
+<!-- /wp:heading -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|10","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
+<div style="margin-top:0;margin-bottom:0;height:var(--wp--preset--spacing--10)" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"blockGap":"0"}}} -->
+<div class="wp-block-column"><!-- wp:image {"id":23,"aspectRatio":"16/9","scale":"contain","sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://wlvopenday.wordpress.com/wp-content/uploads/2025/03/blackoutteaserimage.jpg?w=1024" alt="" class="wp-image-23" style="aspect-ratio:16/9;object-fit:contain"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"metadata":{"name":"Item"},"style":{"color":{"background":"#a8d770"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group has-background" style="background-color:#a8d770"><!-- wp:heading {"level":3,"className":"is-event-name"} -->
+<h3 class="wp-block-heading is-event-name">Open Day 05/06/2025</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"is-event-description"} -->
+<p class="is-event-description">Navigating life's intricate fabric, choices unfold paths to the extraordinary, demanding creativity, curiosity, and courage for a truly fulfilling journey. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">RSVP</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"spacing":{"blockGap":"0"}}} -->
+<div class="wp-block-column"><!-- wp:image {"id":23,"aspectRatio":"16/9","scale":"contain","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://wlvopenday.wordpress.com/wp-content/uploads/2025/03/blackoutteaserimage.jpg" alt="" class="wp-image-23" style="aspect-ratio:16/9;object-fit:contain" title="title"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:group {"metadata":{"name":"Item"},"backgroundColor":"light-green-cyan","layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group has-light-green-cyan-background-color has-background"><!-- wp:heading {"level":3,"className":"is-event-name"} -->
+<h3 class="wp-block-heading is-event-name">Open Day 26/07/2025</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"is-event-description"} -->
+<p class="is-event-description">Navigating life's intricate fabric, choices unfold paths to the extraordinary, demanding creativity, curiosity, and courage for a truly fulfilling journey.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">RSVP</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Contact","categories":["contact"],"patternName":"a8c/map-with-contact-info-copy"},"align":"full","className":"is-style-default","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull is-style-default" style="margin-top:0;margin-bottom:0"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|40"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"pale-cyan-blue"} -->
+<div class="wp-block-columns alignwide has-pale-cyan-blue-background-color has-background" style="border-style:none;border-width:0px"><!-- wp:column {"verticalAlignment":"center","width":""} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center">Visit us</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"metadata":{"name":"Address"},"style":{"spacing":{"blockGap":"var:preset|spacing|10","padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)"><!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Wulfruna St, Wolverhampton WV1 1LY</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Phone"},"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":3,"fontSize":"small"} -->
+<h3 class="wp-block-heading has-text-align-center has-small-font-size">Hours</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Monday—Friday</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">9am-5pm</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Phone"},"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":3,"fontSize":"small"} -->
+<h3 class="wp-block-heading has-text-align-center has-small-font-size">Phone</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center"><a href="https://www.google.com/search?q=wolverhampton+university+opening+times&amp;sca_esv=1ea1e298d902d191&amp;biw=2130&amp;bih=1210&amp;sxsrf=AHTn8zoKmP0IOqFLSOBi6X3TFSeWbBYG9Q%3A1742383017695&amp;ei=qafaZ4eUKvuxhbIPrKIE&amp;oq=wolverhampton+university+openin&amp;gs_lp=Egxnd3Mtd2l6LXNlcnAiH3dvbHZlcmhhbXB0b24gdW5pdmVyc2l0eSBvcGVuaW4qAggAMgsQABiABBiRAhiKBTIGEAAYFhgeMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTIIEAAYgAQYogQyBRAAGO8FSLggUMwFWKAXcAJ4AZABAJgBcqAB8AOqAQM1LjG4AQPIAQD4AQGYAgigAogEwgIKEAAYsAMY1gQYR8ICDRAuGIAEGLADGEMYigXCAgoQABiABBgUGIcCwgIFEAAYgATCAgsQLhiABBjHARivAZgDAIgGAZAGCZIHAzcuMaAH2DCyBwM1LjG4B4QE&amp;sclient=gws-wiz-serp#">01902 321000</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":""} -->
+<div class="wp-block-column"><!-- wp:jetpack/map {"points":[{"placeTitle":"University Of Wolverhampton Business School, Molineux Street, Wolverhampton WV1 1SG, England","title":"University Of Wolverhampton Business School, Molineux Street, Wolverhampton WV1 1SG, England","caption":"University Of Wolverhampton Business School, Molineux Street, Wolverhampton WV1 1SG, England","coordinates":{"longitude":-2.1280186,"latitude":52.590643},"id":"University Of Wolverhampton Business School, Molineux Street, Wolverhampton WV1 1SG, England 52.59 -2.13"}],"zoom":16.971461807929646,"mapCenter":{"lng":-2.1280186,"lat":52.590643},"markerColor":"#151515","scrollToZoom":true,"mapHeight":830,"className":"is-style-terrain"} -->
+<div class="wp-block-jetpack-map is-style-terrain" data-map-style="terrain" data-map-details="true" data-points="[{&quot;placeTitle&quot;:&quot;University Of Wolverhampton Business School, Molineux Street, Wolverhampton WV1 1SG, England&quot;,&quot;title&quot;:&quot;University Of Wolverhampton Business School, Molineux Street, Wolverhampton WV1 1SG, England&quot;,&quot;caption&quot;:&quot;University Of Wolverhampton Business School, Molineux Street, Wolverhampton WV1 1SG, England&quot;,&quot;coordinates&quot;:{&quot;longitude&quot;:-2.1280186,&quot;latitude&quot;:52.590643},&quot;id&quot;:&quot;University Of Wolverhampton Business School, Molineux Street, Wolverhampton WV1 1SG, England 52.59 -2.13&quot;}]" data-zoom="16.971461807929646" data-map-center="{&quot;lng&quot;:-2.1280186,&quot;lat&quot;:52.590643}" data-marker-color="#151515" data-scroll-to-zoom="true" data-map-height="830" data-show-fullscreen-button="true"><ul><li><a href="https://www.google.com/maps/search/?api=1&amp;query=52.590643,-2.1280186">University Of Wolverhampton Business School, Molineux Street, Wolverhampton WV1 1SG, England</a></li></ul></div>
+<!-- /wp:jetpack/map --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->

@@ -1,0 +1,97 @@
+<!-- wp:group {"metadata":{"name":"Header","categories":["header"],"patternName":"a8c/header-with-vertical-navigation"},"align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:group {"tagName":"header","metadata":{"name":"Contents"},"align":"wide","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|80"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
+<header class="wp-block-group alignwide" style="margin-top:0;margin-bottom:0"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","verticalAlignment":"space-between"}} -->
+<div class="wp-block-group"><!-- wp:site-logo {"width":319} /-->
+
+<!-- wp:site-tagline /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:navigation {"ref":12,"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} /--></div>
+<!-- /wp:group --></header>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Contact","categories":["contact"],"patternName":"a8c/contact-5"},"align":"full","className":"is-style-section-3 fullwidth","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull is-style-section-3 fullwidth" style="margin-top:0;margin-bottom:0"><!-- wp:jetpack/event-countdown {"eventTimestamp":1749118440} -->
+<div class="wp-block-jetpack-event-countdown"><div><div class="event-countdown__date">1749118440</div><div class="event-countdown__counter"><p><strong class="event-countdown__day">&nbsp;</strong> days</p><p><span><strong class="event-countdown__hour">&nbsp;</strong> hours</span><span><strong class="event-countdown__minute">&nbsp;</strong> minutes</span><span><strong class="event-countdown__second">&nbsp;</strong> seconds</span></p><p>until</p></div><div class="event-countdown__event-title"><p>June Open Day</p></div></div></div>
+<!-- /wp:jetpack/event-countdown --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Header","categories":["header"],"patternName":"a8c/header-centered-logo-and-menu"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var(u002du002dwpu002du002dstyleu002du002drootu002du002dpadding-left, var(u002du002dwpu002du002dcustomu002du002dgapu002du002dhorizontal))","right":"var(u002du002dwpu002du002dstyleu002du002drootu002du002dpadding-right, var(u002du002dwpu002du002dcustomu002du002dgapu002du002dhorizontal))"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--20);padding-right:var(u002du002dwpu002du002dstyleu002du002drootu002du002dpadding-right, var(u002du002dwpu002du002dcustomu002du002dgapu002du002dhorizontal));padding-bottom:var(--wp--preset--spacing--20);padding-left:var(u002du002dwpu002du002dstyleu002du002drootu002du002dpadding-left, var(u002du002dwpu002du002dcustomu002du002dgapu002du002dhorizontal))"><!-- wp:group {"tagName":"header","metadata":{"name":"Contents"},"align":"wide","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<header class="wp-block-group alignwide" style="margin-top:0;margin-bottom:0"><!-- wp:group {"style":{"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group"></div>
+<!-- /wp:group --></header>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Contact","categories":["page"],"patternName":"a8c/contact-tall-image-with-form"},"align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:columns {"align":"wide"} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center","width":""} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"fontSize":"x-large"} -->
+<h2 class="wp-block-heading has-x-large-font-size">Contact</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"is-contact-description","style":{"color":{"background":"#f87d9c"}}} -->
+<p class="is-contact-description has-background" style="background-color:#f87d9c">Secure your spot for our University Open Day! 🎓 Book your place now to receive event updates and a personalized itinerary. We look forward to welcoming you!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"calc( 0.25 * var(u002du002dwpu002du002dstyleu002du002drootu002du002dpadding-right, var(u002du002dwpu002du002dcustomu002du002dgapu002du002dhorizontal)))"} -->
+<div style="height:calc( 0.25 * var(u002du002dwpu002du002dstyleu002du002drootu002du002dpadding-right, var(u002du002dwpu002du002dcustomu002du002dgapu002du002dhorizontal)))" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:jetpack/contact-form {"subject":"","to":"","className":"is-style-default","textColor":"primary","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}}} -->
+<div class="wp-block-jetpack-contact-form is-style-default has-primary-color has-text-color has-link-color"><!-- wp:jetpack/field-name {"required":true,"borderRadius":5,"borderWidth":1} /-->
+
+<!-- wp:jetpack/field-email {"required":true,"borderRadius":5,"borderWidth":1} /-->
+
+<!-- wp:jetpack/field-textarea {"borderRadius":5,"borderWidth":1} /-->
+
+<!-- wp:jetpack/button {"element":"button","text":"Submit","width":"","lock":{"remove":true}} /--></div>
+<!-- /wp:jetpack/contact-form --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"lightbox":{"enabled":false},"id":13699,"aspectRatio":"9/16","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://dotcompatterns.files.wordpress.com/2024/01/paint-tall.jpg" alt="" class="wp-image-13699" style="aspect-ratio:9/16;object-fit:cover" /></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"lightbox":{"enabled":false},"id":13699,"aspectRatio":"9/16","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://dotcompatterns.files.wordpress.com/2024/01/paint-tall.jpg" alt="" class="wp-image-13699" style="aspect-ratio:9/16;object-fit:cover" /></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Footer Container","categories":["footer"],"patternName":"a8c/footer-centered-address"},"align":"full","style":{"spacing":{"padding":{"top":"calc( 0.5 * var(u002du002dwpu002du002dstyleu002du002drootu002du002dpadding-right, var(u002du002dwpu002du002dcustomu002du002dgapu002du002dhorizontal)))","bottom":"calc( 0.5 * var(u002du002dwpu002du002dstyleu002du002drootu002du002dpadding-right, var(u002du002dwpu002du002dcustomu002du002dgapu002du002dhorizontal)))","left":"var(u002du002dwpu002du002dstyleu002du002drootu002du002dpadding-left, var(u002du002dwpu002du002dcustomu002du002dgapu002du002dhorizontal))","right":"var(u002du002dwpu002du002dstyleu002du002drootu002du002dpadding-right, var(u002du002dwpu002du002dcustomu002du002dgapu002du002dhorizontal))"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:calc( 0.5 * var(u002du002dwpu002du002dstyleu002du002drootu002du002dpadding-right, var(u002du002dwpu002du002dcustomu002du002dgapu002du002dhorizontal)));padding-right:var(u002du002dwpu002du002dstyleu002du002drootu002du002dpadding-right, var(u002du002dwpu002du002dcustomu002du002dgapu002du002dhorizontal));padding-bottom:calc( 0.5 * var(u002du002dwpu002du002dstyleu002du002drootu002du002dpadding-right, var(u002du002dwpu002du002dcustomu002du002dgapu002du002dhorizontal)));padding-left:var(u002du002dwpu002du002dstyleu002du002drootu002du002dpadding-left, var(u002du002dwpu002du002dcustomu002du002dgapu002du002dhorizontal))"><!-- wp:spacer {"height":"calc( 0.25 * var(u002du002dwpu002du002dstyleu002du002drootu002du002dpadding-right, var(u002du002dwpu002du002dcustomu002du002dgapu002du002dhorizontal)))"} -->
+<div style="height:calc( 0.25 * var(u002du002dwpu002du002dstyleu002du002drootu002du002dpadding-right, var(u002du002dwpu002du002dcustomu002du002dgapu002du002dhorizontal)))" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"metadata":{"name":"Colophon"},"layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Monday - Saturday, From 7am - 10pm (times may vary)<br>Wulfruna St, Wolverhampton WV1 1LY<br><a href="https://www.google.com/search?q=wolverhampton+university+opening+times&amp;sca_esv=1ea1e298d902d191&amp;biw=2130&amp;bih=1210&amp;sxsrf=AHTn8zoKmP0IOqFLSOBi6X3TFSeWbBYG9Q%3A1742383017695&amp;ei=qafaZ4eUKvuxhbIPrKIE&amp;oq=wolverhampton+university+openin&amp;gs_lp=Egxnd3Mtd2l6LXNlcnAiH3dvbHZlcmhhbXB0b24gdW5pdmVyc2l0eSBvcGVuaW4qAggAMgsQABiABBiRAhiKBTIGEAAYFhgeMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBTIIEAAYgAQYogQyBRAAGO8FSLggUMwFWKAXcAJ4AZABAJgBcqAB8AOqAQM1LjG4AQPIAQD4AQGYAgigAogEwgIKEAAYsAMY1gQYR8ICDRAuGIAEGLADGEMYigXCAgoQABiABBgUGIcCwgIFEAAYgATCAgsQLhiABBjHARivAZgDAIgGAZAGCZIHAzcuMaAH2DCyBwM1LjG4B4QE&amp;sclient=gws-wiz-serp#">01902 321000</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:social-links {"className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->
+<ul class="wp-block-social-links is-style-logos-only"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
+
+<!-- wp:social-link {"url":"#","service":"instagram"} /-->
+
+<!-- wp:social-link {"url":"#","service":"twitter"} /--></ul>
+<!-- /wp:social-links -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|40"} -->
+<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:paragraph {"align":"center","metadata":{"name":"Credit"},"fontSize":"small"} -->
+<p class="has-text-align-center has-small-font-size"></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"calc( 0.25 * var(u002du002dwpu002du002dstyleu002du002drootu002du002dpadding-right, var(u002du002dwpu002du002dcustomu002du002dgapu002du002dhorizontal)))"} -->
+<div style="height:calc( 0.25 * var(u002du002dwpu002du002dstyleu002du002drootu002du002dpadding-right, var(u002du002dwpu002du002dcustomu002du002dgapu002du002dhorizontal)))" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer --></div>
+<!-- /wp:group -->

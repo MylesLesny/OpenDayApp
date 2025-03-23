@@ -1,0 +1,8 @@
+<div class="todays-date" style="background-color: #a8d770; padding: 10px; text-align: center;">
+  Today's Date: <span id="date"></span>
+</div>
+
+<script>
+  // JavaScript to display today's date
+  document.getElementById('date').innerText = new Date().toLocaleDateString();
+</script>
