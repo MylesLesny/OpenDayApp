@@ -1,0 +1,82 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart'; // Import for SystemNavigator
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Data Policy Adventure',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: DataPolicyPage(),
+    );
+  }
+}
+
+class DataPolicyPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            // Display the Data Policy Image
+            Image.asset('assets/DataPolicy.jpg'), // Make sure this image is in the assets folder!
+            SizedBox(height: 20),
+            // Display the GDPR Image
+            Image.asset('assets/GDPR.jpg'), // Make sure this image is in the assets folder!
+            SizedBox(height: 20),
+            // "I Do Not Agree" Button
+            ElevatedButton(
+              onPressed: () {
+                // Time to say goodbye! 👋
+                SystemNavigator.pop(); // This will close the app
+              },
+              child: Text('Nope, Not for Me! 😢'),
+            ),
+            SizedBox(height: 10),
+            // "I Agree" Button
+            ElevatedButton(
+              onPressed: () {
+                // Off we go to the next page! 🚀
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => NextPage()),
+                );
+              },
+              child: Text('I Totally Agree! 🎉'),
+            ),
+          ],
+        ),
+      ),
+      appBar: AppBar(
+        title: Text('🌟 Data Policy 🌟'),
+      ),
+    );
+  }
+}
+
+class NextPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: Text(
+          'Welcome to the next page! 🌈\nLet’s explore together! 🚀',
+          textAlign: TextAlign.center,
+          style: TextStyle(fontSize: 20),
+        ),
+      ),
+      appBar: AppBar(
+        title: Text('🎈 Next Page 🎈'),
+      ),
+    );
+  }
+}
