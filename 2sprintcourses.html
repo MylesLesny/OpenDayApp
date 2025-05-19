@@ -83,7 +83,8 @@
                 }
         }
         function filterCourses() {
-            
+            const query = document.getElementById('search').value.toLowerCase();
+            const courses = document.querySelectorAll('.course-card');
             courses.forEach(course => {
                 const title = course.querySelector('h3').innerText.toLowerCase();
                 course.style.display = title.includes(query) ? 'block' : 'none';
