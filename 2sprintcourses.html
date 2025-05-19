@@ -77,7 +77,10 @@
     </style>
     <script>
         function toggleDarkMode() {
-            document.body.classList.toggle('dark-mode');
+            document.addEventListener('DOMContentLoaded', () => {
+                if (localStorage.getItem('theme') === 'dark') {
+                    document.body.classList.add('dark-mode');
+                }
         }
         function filterCourses() {
             const query = document.getElementById('search').value.toLowerCase();
