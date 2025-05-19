@@ -1,0 +1,119 @@
+import 'package:flutter/material.dart'; // Flutter framework library
+import 'dart:math'; // Dart core library for random number generation
+
+class CaptchaPageWidget extends StatefulWidget {
+  const CaptchaPageWidget({Key? key}) : super(key: key);
+
+  @override
+  _CaptchaPageWidgetState createState() => _CaptchaPageWidgetState();
+}
+
+class _CaptchaPageWidgetState extends State<CaptchaPageWidget> {
+  final TextEditingController _controller = TextEditingController();
+  bool _isCorrect = false;
+  bool _isSubmitted = false;
+
+  // A amazingly ugly collection of images for our math problem
+  final List<String> _imageAssets = [
+    'assets/images/6x4.jpg',
+    'assets/images/4x6+0.jpg',
+    'assets/images/4x6.jpg',
+  ];
+
+  late String _currentImage; // The image that will keep us guessing
+
+  @override
+  void initState() {
+    super.initState();
+    _fetchRandomImage(); // Let's start with a surprise! 🎉
+
+    // Listen for changes in the text field
+    _controller.addListener(() => setState(() {})); // Rebuild on text change
+  }
+
+  void _restartCaptcha() {
+    setState(() {
+      _isSubmitted = false;
+      _controller.clear();
+      _fetchRandomImage(); // Fresh image for a fresh start! 🌟
+    });
+  }
+
+  void _validateAnswer() {
+    setState(() {
+      _isSubmitted = true;
+      final userAnswer = _controller.text.trim();
+      // Spoiler alert: the answer is '24'
+      _isCorrect = userAnswer.isNotEmpty && userAnswer == '24'; 
+    });
+  }
+
+  void _fetchRandomImage() {
+    // Pick a random image from our amazing collection
+    _currentImage = _imageAssets[Random().nextInt(_imageAssets.length)];
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose(); // Clean up the controller
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('CAPTCHA Challenge'),
+      ),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              // Input field for the answer
+              TextField(
+                controller: _controller,
+                decoration: const InputDecoration(
+                  labelText: 'Your Answer',
+                  border: OutlineInputBorder(),
+                ),
+                keyboardType: TextInputType.number,
+              ),
+              const SizedBox(height: 20),
+              // Submit Button
+              ElevatedButton(
+                onPressed: _controller.text.isEmpty ? null : _validateAnswer,
+                child: const Text('Submit'),
+              ),
+              const SizedBox(height: 20),
+              // Result message display
+              if (_isSubmitted)
+                Text(
+                  _isCorrect 
+                    ? 'Bravo! You nailed it! 😊' // Cheerful message for correct answer
+                    : 'Oh no! That’s not right nice try bot. 🤖', // Disappointed message for incorrect answer
+                  style: TextStyle(
+                    color: _isCorrect ? Colors.green : Colors.red,
+                    fontSize: 16,
+                  ),
+                ),
+              const SizedBox(height: 20),
+              // Reset Button
+              ElevatedButton(
+                onPressed: _isSubmitted ? _restartCaptcha : null, // Only active if submitted
+                child: const Text('Try Again'),
+              ),
+              const SizedBox(height: 20),
+              // Display the math question as an image
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 5.0),
+                child: Image.asset(_currentImage), // Show the chosen image
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
